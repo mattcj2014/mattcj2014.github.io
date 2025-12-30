@@ -39,3 +39,32 @@ footer {
   text-align: center;
   font-size: 0.9em;
 }
+
+.project-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.section-spacing {
+  margin-bottom: 50px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
